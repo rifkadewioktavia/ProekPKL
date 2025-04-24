@@ -1,0 +1,118 @@
+/* Reset dan Layout Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  /* Header */
+  .main-header {
+    width: 100%;
+    background-color: #ddd;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .main-nav a,
+  .user-actions a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  /* Banner */
+  .banner img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Kategori */
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .category {
+    text-align: center;
+  }
+  
+  .category img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .category button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Produk Terbaik */
+  .produk-terbaik {
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .produk-terbaik h2 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .produk-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .produk {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fefefe;
+  }
+  
+  .produk img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  .footer-desc {
+    padding: 2rem;
+    background-color: #eee;
+    text-align: center;
+  }
+  

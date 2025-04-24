@@ -1,0 +1,261 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    body {
+        display: flex;
+        background-color: #f8f8f8;
+    }
+    .sidebar {
+        width: 250px;
+        background: #ccc;
+        padding: 20px;
+        height: 100vh;
+    }
+    .sidebar h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .sidebar ul {
+        list-style: none;
+    }
+    .sidebar ul li {
+        margin-bottom: 10px;
+    }
+    .sidebar ul li a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        padding: 10px;
+    }
+    .active {
+        font-weight: bold;
+        border-left: 3px solid #000;
+        padding-left: 7px;
+    }
+    .logout {
+        display: block;
+        margin-top: 20px;
+        color: gray;
+        text-decoration: none;
+    }
+    .content {
+        flex: 1;
+        padding: 20px;
+    }
+    .content h1 {
+        font-size: 24px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        margin: 10px 0;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .stats {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .red { color: red; border-left: 5px solid red; }
+    .orange { color: orange; border-left: 5px solid orange; }
+    .yellow { color: gold; border-left: 5px solid gold; }
+    .green { color: green; border-left: 5px solid green; }
+    .blue { color: blue; border-left: 5px solid blue; }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    body {
+        display: flex;
+        background-color: #f8f8f8;
+    }
+    .sidebar {
+        width: 250px;
+        background: #ccc;
+        padding: 20px;
+        height: 100vh;
+    }
+    .sidebar h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .sidebar ul {
+        list-style: none;
+    }
+    .sidebar ul li {
+        margin-bottom: 10px;
+    }
+    .sidebar ul li a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        padding: 10px;
+    }
+    .active {
+        font-weight: bold;
+        border-left: 3px solid #000;
+        padding-left: 7px;
+    }
+    .logout {
+        display: block;
+        margin-top: 20px;
+        color: gray;
+        text-decoration: none;
+    }
+    .content {
+        flex: 1;
+        padding: 20px;
+    }
+    .content h1 {
+        font-size: 24px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    .search {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    .table-container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+    th {
+        background: #eee;
+    }
+    .delete-btn {
+        background: gray;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    body {
+        display: flex;
+        background-color: #f8f8f8;
+    }
+    .sidebar {
+        width: 250px;
+        background: #ccc;
+        padding: 20px;
+        height: 100vh;
+    }
+    .sidebar h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .sidebar ul {
+        list-style: none;
+    }
+    .sidebar ul li {
+        margin-bottom: 10px;
+    }
+    .sidebar ul li a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        padding: 10px;
+    }
+    .active {
+        font-weight: bold;
+        border-left: 3px solid #000;
+        padding-left: 7px;
+    }
+    .logout {
+        display: block;
+        margin-top: 20px;
+        color: gray;
+        text-decoration: none;
+    }
+    .content {
+        flex: 1;
+        padding: 20px;
+    }
+    .content h1 {
+        font-size: 24px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    .search {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    .table-container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+    th.aksi, td.aksi {
+        width: 150px; /* Sesuaikan lebar sesuai kebutuhan */
+        text-align: center;
+    }
+    th {
+        background: #eee;
+    }
+    .update-btn {
+        background: rgb(211,178,244);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .delete-btn {
+        background: gray;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+  
+  
